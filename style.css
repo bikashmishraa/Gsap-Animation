@@ -6,11 +6,26 @@
     overflow: hidden;
     font-family: 'Roboto Condensed', sans-serif;
 }
+body,html{
+  width: 100%;
+  height: 100%;
+}
+.loader{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 99;
+  background-image: url("https://getwallpapers.com/wallpaper/full/9/4/d/358396.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .main{
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: black;
+  overflow: hidden;
 }
 .navbar{
   height: 80px;
